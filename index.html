@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="asset/src/style.css">
   <title>Mobile First</title>
 </head>
 <body>
@@ -33,8 +34,76 @@
               </div>
             </li>
         </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+        </form>
       </div>
-    </nav>
+  </nav>
+<!-- Carrusel -->
+<section id="contenedorPrincipal">
+<section class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators carousel-indicators-numbers">
+      <li  data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img class="d-block w-100 imgCarrusel" data-src="holder.js/900x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="First slide [900x300]" src="asset/img/paris-francia-2011-4027.jpg" data-holder-rendered="true">
+        <div class="carousel-caption d-md-block">
+          <p id= "carruseltext">Paris</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 imgCarrusel" data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="Second slide [900x300]" src="asset/img/rome.jpg" data-holder-rendered="true">
+        <div class="carousel-caption d-md-block">
+          <p id= "carruseltext">Roma</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 imgCarrusel" data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Third slide" alt="Third slide [900x300]" src="asset/img/world.jpg" data-holder-rendered="true">
+        <div class="carousel-caption d-md-block">
+          <p id= "carruseltext">World</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonios">
+  <div><h4 class="txtTestimonios">Testimonios</h4>
+    <img src="asset/img/turist1.jpg" class="img-fluid" alt="Responsive image">
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis venenatis ante. Fusce ullamcorper orci non erat aliquet finibus.</p>
+  </div>
+  <div>
+    <img src="asset/img/turist2.jpg" class="img-fluid" alt="Responsive image">
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis venenatis ante. Fusce ullamcorper orci non erat aliquet finibus.</p>
+  </div>
+  <div>
+      <img src="asset/img/turist3.jpg" class="img-fluid" alt="Responsive image">
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis venenatis ante. Fusce ullamcorper orci non erat aliquet finibus.</p>
+    </div>
+</section>
+<section id="contactanos">
+    <div><h4 id="contact" >Contactanos</h4>
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remenber me</label>
+  </div>
+  <button type="submit" class="btn">Submit</button>
+</form>
+    </div>
+</section>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

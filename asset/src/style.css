@@ -1,0 +1,69 @@
+#carruseltext{
+  text-align: center;
+  color: white;
+  font-size: 100 em;
+}
+
+imgCarrusel{
+  height: 20vh;
+}
+
+.txtTestimonios{
+  text-align: center;
+  color: #333333;
+  font-size: 60 em;
+}
+#testimonios{ 
+  text-align: center;
+  border-color: #333333 solid 20px;
+  padding: 5%;
+}
+.carousel-indicators-numbers li {
+  text-indent: 0;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  line-height: 30px;
+  color: #fff;
+  background-color: #333333;
+  transition: all 0.25s ease;
+  
+}
+.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+}
+
+.text{
+  text-align: justify;
+}
+
+#contactanos{
+  background-color: #FF7563;
+  color:white;
+  padding: 10%;
+}
+
+#contact{
+  text-align: center;
+}
+
+.btn{
+  color: #FF7563;
+}
+
+@media(min-width: 768px){ /* esta medida se encuentra en bootstrap-> overview-> responsive breakpoints */
+  .contenedorPrincipal{
+      width: 20vw; /*El menú va a tomar este ancho con pantallas de 768px hacia arriba*/
+  }
+}
+
+@media(min-width: 768px){
+  .navbar{
+      width: 100vw; 
+  }
+}
